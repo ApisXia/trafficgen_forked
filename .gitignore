@@ -12,9 +12,13 @@
 *.pt
 *cache*
 
+**.pkl
+trafficgen/act/sample_data/**
+trafficgen/init/sample_data/**
+
 /traffic_generator/ckpt/
 /trafficgen/lightning_logs/
 /trafficgen/traffic_generator/ckpt/
 /trafficgen/init/_correct_sample_data/
-/trafficgen/act/sample_data/
+
 trafficgen.egg-info

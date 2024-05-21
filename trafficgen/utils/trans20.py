@@ -401,7 +401,8 @@ def compute_width(scene):
 
 
 def parse_data(inut_path, output_path, pre_fix=None):
-    MAX = 100000
+    # limit size to 100, original size is 100000
+    MAX = 100
     cnt = 0
     scenario = scenario_pb2.Scenario()
     file_list = os.listdir(inut_path)

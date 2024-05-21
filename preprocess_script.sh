@@ -1,0 +1,1 @@
+python trafficgen/utils/trans20.py /mnt/andro/dynaGenData/training_20s /mnt/andro/dynaGenData/traffic_gen_data None

@@ -18,3 +18,4 @@
 /trafficgen/init/_correct_sample_data/
 /trafficgen/act/sample_data/**
 trafficgen.egg-info
+.vscode

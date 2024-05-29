@@ -9,8 +9,8 @@ if __name__ == "__main__":
     args = get_parsed_args()
 
     cfg = load_config_init(args.config)
-    print('loading checkpoint...')
+    print("loading checkpoint...")
     trafficgen = TrafficGen(cfg)
-    print('Complete.\n')
+    print("Complete.\n")
 
     trafficgen.generate_scenarios(gif=args.gif, save_metadrive=args.save_metadrive)
